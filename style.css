@@ -1,0 +1,397 @@
+body
+{
+    margin: 0px;
+    background-color: black;
+}
+
+#main
+{
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #aaaaaa;
+}
+
+#belka
+{
+    width: 100%;
+    height: 35px;
+    background-color: white;
+}
+
+#logo
+{
+    width: 100%;
+    padding-top: 4px;
+    text-align: center;
+    font-size: 23px;
+    color: black;
+}
+
+#jakastrona
+{
+    width: 100%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50px;
+    background-color: #ffffff;
+    background-color: blue;
+}    
+
+#jakastrona1
+{
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 25px;
+    padding: 11px 0;
+    color: #000000;
+    background-color: crimson;
+}
+
+#tlo
+{
+    background-color: #cccccc;
+    width: 80%;
+    height: 2000px;
+    margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #ffffff;
+}
+
+#fotter
+{
+    height: 35px;
+    background-color: #000000;
+}
+
+#fotterpodpis
+{
+    color: #ffffff;
+    text-align: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 15px;
+    padding: 9px;
+    
+}
+
+/* Strona główna przyklejana belka */
+
+.nav
+{ 
+	width: 100%;
+	background-color: teal;
+	text-align: center;
+	border-top: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+    height: 31px;
+}
+
+.sticky
+{
+	width: 100%;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 100;
+}
+
+ol
+{
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	font-size: 14px;
+	line-height: 150%;
+    display: inline-block;
+    width: 100%;
+}
+
+ol a
+{
+	color: #000000;
+	text-decoration: none;
+	display: block;
+}
+
+ol > li
+{
+	float: left;
+	width: 11.11%;
+    padding-top: 5px;
+    padding-bottom: 5px ;
+}
+
+ol > li:hover
+{
+	background-color: gold;
+}
+
+/*Podstrona 8Game*/
+
+#panellewo8game
+{
+    width: 896px;
+    height: 560px;
+    background-color: rgb(119, 6, 34);
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-right: 20px;
+    float: left;
+    border: 1px solid #000000
+}
+
+#panelprawo8game
+{
+    width: 296px;
+    height: 560px;
+    background-color: rgb(119, 6, 34);
+    margin-top: 30px;
+    margin-right: 40px;
+    float: left;
+    border: 1px solid #000000
+}
+
+#ekran
+{
+    background-color: #000000;
+    margin: 20px;
+    width: 856px;
+    height: 260px ;
+    float: left;
+    border: 2px solid #ffffff;
+}
+
+#ekrantekst
+{
+    font-size: 70px;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 80px;   
+}
+
+#labiryntprzycisk
+{
+    margin-top: 300px;
+    height: 260px;
+}
+
+.labirynt
+{
+    border: 1px solid #ffffff;
+    width: 280px;
+    height: 80px;
+    margin-left: 13px;
+    margin-top: 80px;
+    margin-bottom: 140px;
+    float: left;
+    font-size: 55px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #000000;
+}
+
+#instrukcja
+{
+    background-color: #000000;
+    margin: 10px;
+    height: 540px;
+    border: 2px solid #ffffff;
+}
+
+#instrukcja1
+{
+    color: #ffffff;
+    text-align: center;
+    font-size: 16px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.labirynt:hover
+{
+    background-color: #f36742;
+	color: white;
+	cursor: pointer;
+}
+
+/* Podstrona -  Metody nauki */
+
+#navi
+{
+    background-color: blueviolet;
+    width: 97.7%;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid brown;
+    margin-bottom: 20px;
+}
+
+#metodytlo
+{
+    background-color: #cccccc;
+    width: 97.7%;
+    height: 2000px;
+    margin-bottom: 100px;
+    border: 1px solid #ffffff;
+    float: left;
+    margin-left: 1%;
+}
+
+#logoblok
+{
+    text-align: center;
+    font-size: 30px;
+    padding: 15px 0;
+    border-bottom: 1px solid #ffffff;
+}
+
+#htmlblock
+{
+    font-size: 25px;
+    padding: 20px 0;
+    text-align: center;
+}
+
+#htmlblock1
+{
+    background-color: blueviolet;
+    color: #000000;
+    font-size: 20px;
+    text-align: center;
+    width: 50%;
+    float: left;
+    padding: 39px 0;
+}
+
+#htmlblock2
+{
+    
+    width: 49.8%;
+    float: left;
+    border-right: 2px solid black;
+}
+
+.obrazek
+{
+    max-width: 49.8%;
+    height: auto;
+    
+    border: 1px solid white;
+    margin-left: 24.9%;
+    margin-right: 24.9%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Kolory */
+/* Podstrona -  O Autorach */
+
+/* Podstrona - Czego się nauczyłem */
+
+#blocktlo
+{
+    width: 100%;
+    height: 2000px;
+    background-color: #ffffff;
+}
+
+#paragraf
+{
+    background-color: #f36742;
+    height: 300px;
+}
+
+.quote
+{
+    color: green;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
