@@ -4,6 +4,9 @@ body
     background-color: black;
 }
 
+
+/* Podstawowy szkielet strony szkielet */
+
 #main
 {
     width: 100%;
@@ -80,6 +83,7 @@ body
     
 }
 
+
 /* Strona główna przyklejana belka */
 
 .nav
@@ -132,121 +136,41 @@ ol > li:hover
 	background-color: gold;
 }
 
+
+/* Podstrona - Projekty/index.html */
+
+
+/* Podstrona - Timers */
+
+
+/* Podstrona - Checklist */
+
+
+/* Podstrona - Statystyki */
+
+
+/* Podstrona - Aplikacje */
+
+
+/* Podstrona - Notatki */
+
+
 /* Podstrona - Metody nauki */
 
-#navi
-{
-    background-color: blueviolet;
-    width: 97.7%;
-    height: 100px;
-    margin-left: auto;
-    margin-right: auto;
-    border: 1px solid brown;
-    margin-bottom: 20px;
-}
 
-#metodytlo
-{
-    background-color: #cccccc;
-    width: 97.7%;
-    height: 2000px;
-    margin-bottom: 100px;
-    border: 1px solid #ffffff;
-    float: left;
-    margin-left: 1%;
-}
-
-#logoblok
-{
-    text-align: center;
-    font-size: 30px;
-    padding: 15px 0;
-    border-bottom: 1px solid #ffffff;
-}
-
-#htmlblock
-{
-    font-size: 25px;
-    padding: 20px 0;
-    text-align: center;
-}
-
-#htmlblock1
-{
-    background-color: blueviolet;
-    color: #000000;
-    font-size: 20px;
-    text-align: center;
-    width: 50%;
-    float: left;
-    padding: 39px 0;
-}
-
-#htmlblock2
-{
-    
-    width: 49.8%;
-    float: left;
-    border-right: 2px solid black;
-}
-
-.obrazek
-{
-    max-width: 49.8%;
-    height: auto;
-    
-    border: 1px solid white;
-    margin-left: 24.9%;
-    margin-right: 24.9%;
-}
+/* Podstrona - 8Game */
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* Podstrona -  O Autorach */
 
 
 /* Kolory */
 
-/* Podstrona -  O Autorach */
 
-/* Podstrona - Czego się nauczyłem */
 
-#blocktlo
-{
-    width: 100%;
-    height: 2000px;
-    background-color: #ffffff;
-}
 
-#paragraf
-{
-    background-color: #f36742;
-    height: 300px;
-}
 
-.quote
-{
-    color: green;
-}
+
 
 
 
