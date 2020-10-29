@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+ 
+.icon-check:before { content: '\2611'; } /* '☑' */
+.icon-off:before { content: '\e78e'; } /* '' */
+.icon-tasks:before { content: '\f0ae'; } /* '' */
+.icon-sitemap:before { content: '\f0e8'; } /* '' */
+.icon-gamepad:before { content: '\f11b'; } /* '' */
+.icon-help:before { content: '\f128'; } /* '' */
+.icon-street-view:before { content: '\f21d'; } /* '' */
+.icon-sticky-note-o:before { content: '\f24a'; } /* '' */
+.icon-chart-bar:before { content: '📊'; } /* '\1f4ca' */
+.icon-book:before { content: '📕'; } /* '\1f4d5' */
+.icon-clock:before { content: '🕔'; } /* '\1f554' */
