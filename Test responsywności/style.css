@@ -226,8 +226,6 @@ body
     border-radius: 15%;
 }
 
-
-
 .subpage_oautorach_icons:first-child
 {
     margin-left: 6vw;
@@ -284,11 +282,38 @@ body
     background-color: #944BC5;
 }
 
+/* Subpage - projekty */
 
+#testowo
+{
+    float: left;
+    width: 40vw;
+    height: 40vh;
+    background-color: #C4302B;
+    margin-left: 24vw;
+    margin-right: 24vw;
+    margin-top: 30vh;
+    margin-bottom: 30vh;
+}
 
+/* Subpage - timers */
 
+#page_not_found
+{
+    text-align: center;
+    font-size: 4vw;
+    padding-top: 4vh;
+    padding-bottom: 4vh;
+}
 
-
+#the_worlds_best_boss
+{
+    float: left;
+    width: 50vw;
+    height: 50vh;
+    margin-left: 19vw;
+    margin-right: 19vw;
+}
 
 
 
