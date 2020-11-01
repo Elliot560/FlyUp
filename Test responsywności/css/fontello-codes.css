@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+ 
+.icon-check:before { content: '\2611'; } /* '☑' */
+.icon-th:before { content: '\268f'; } /* '⚏' */
+.icon-edit:before { content: '\270d'; } /* '✍' */
+.icon-align-justify:before { content: '\e781'; } /* '' */
+.icon-tasks:before { content: '\f0ae'; } /* '' */
+.icon-menu:before { content: '\f0c9'; } /* '' */
+.icon-gamepad:before { content: '\f11b'; } /* '' */
+.icon-headphones:before { content: '🎧'; } /* '\1f3a7' */
+.icon-users:before { content: '👥'; } /* '\1f465' */
+.icon-chart-bar:before { content: '📊'; } /* '\1f4ca' */
+.icon-book:before { content: '📕'; } /* '\1f4d5' */
+.icon-clock:before { content: '🕔'; } /* '\1f554' */
