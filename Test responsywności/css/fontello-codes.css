@@ -5,9 +5,14 @@
 .icon-th:before { content: '\268f'; } /* '⚏' */
 .icon-edit:before { content: '\270d'; } /* '✍' */
 .icon-align-justify:before { content: '\e781'; } /* '' */
+.icon-twitter:before { content: '\f099'; } /* '' */
 .icon-tasks:before { content: '\f0ae'; } /* '' */
 .icon-menu:before { content: '\f0c9'; } /* '' */
+.icon-mail-alt:before { content: '\f0e0'; } /* '' */
 .icon-gamepad:before { content: '\f11b'; } /* '' */
+.icon-youtube:before { content: '\f167'; } /* '' */
+.icon-instagram:before { content: '\f16d'; } /* '' */
+.icon-facebook-squared:before { content: '\f308'; } /* '' */
 .icon-headphones:before { content: '🎧'; } /* '\1f3a7' */
 .icon-users:before { content: '👥'; } /* '\1f465' */
 .icon-chart-bar:before { content: '📊'; } /* '\1f4ca' */
