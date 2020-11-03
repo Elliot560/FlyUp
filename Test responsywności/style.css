@@ -675,13 +675,104 @@ body
 {
     width: 10vw;
     height: 20vh;
+    margin-left: 2.5vw;
     background-color: lightseagreen;
 }
 
-#test1
+#up_button_box
 {
-    width: 2.5vw;
-    height: 5vh;
-    border-radius: 0vw 0vw 1vh 1vh;
-    background-color: maroon;
+    background-color: tomato;
+    width: 10vw;
+    height: 6vh;
 }
+
+#up_button
+{
+    width: 2vw;
+    height: 6vh;
+    margin-right: 4vw;
+    margin-left: 4vw;
+    background-color: #25292b;
+}
+
+#up_triangle_button
+{
+    width: 0vw;
+    height: 0vh;
+    margin-right: 4vw;
+    margin-left: 4vw;
+    border-top: 2vh solid red;
+    border-left: 1vw solid transparent;
+    border-right: 1vw solid transparent;
+}
+
+#down_triangle_button
+{
+    width: 0vw;
+    height: 0vh;
+    margin-right: 4vw;
+    margin-left: 4vw;
+    border-bottom: 2vh solid red;
+    border-left: 1vw solid transparent;
+    border-right: 1vw solid transparent;
+}
+
+#down_button_box
+{
+    background-color: tomato;
+    width: 10vw;
+    height: 6vh; 
+}
+
+#down_button
+{
+    width: 2vw;
+    height: 6vh;
+    margin-right: 4vw;
+    margin-left: 4vw;
+    background-color: #25292b;
+}
+
+#left_button
+{
+    float: left;
+    width: 3vw;
+    height: 4.1vh;
+    margin-left: 1vw;
+    background-color: #25292b;
+}
+
+#left_triangle_button
+{
+    float: left;
+    width: 0vw;
+    height: 0vh;
+    /*margin-left: 4vw;*/
+    border-top: 1vw solid transparent;
+    border-left: 2vh solid red;
+    border-bottom: 1vw solid transparent;
+}
+
+#right_triangle_button
+{
+    float: left;
+    width: 0vw;
+    height: 0vh;
+    /*margin-left: 4vw;*/
+    border-top: 1vw solid transparent;
+    border-right: 2vh solid red;
+    border-bottom: 1vw solid transparent;
+}
+
+#right_button
+{
+    float: left;
+    width: 3vw;
+    height: 4.1vh;
+    margin-right: 1vw;
+    background-color: #25292b; 
+}
+
+
+
+
