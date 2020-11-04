@@ -641,6 +641,9 @@ body
     color: #204a87;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     width: 23vw;
+    padding-top: 0.1vh;
+    padding-bottom: 0.1vh;
+    box-sizing: border-box;
     margin-left: 2.5vw;
     margin-right: 2.5vw;
 }
@@ -662,13 +665,12 @@ body
     font-size: 1.3vw;
 }
 
-/* Wersja testowa krzyżaka do gameboy-a */
+/* Wersja testowa krzyżaka do gameboy-a i innych przycisków*/
 
 #main_buttons
 {
     width: 28vw;
     height: 20vh;
-    background-color: lightcoral;
 }
 
 #square_for_buttons
@@ -677,7 +679,6 @@ body
     width: 10vw;
     height: 20vh;
     margin-left: 2.5vw;
-    background-color: lightseagreen;
 }
 
 #part_one_left_button
@@ -752,8 +753,6 @@ body
     width: 15.5vw;
     height: 10vh;
     margin-top: 5vh;
-    margin-bottom: 5vh;
-    background-color: blueviolet;
 }
 
 #cirle_one
@@ -761,10 +760,10 @@ body
     float: left;
     width: 3vw;
     height: 6vh;
-    margin-top: 3vh;
+    margin-top: 4vh;
     margin-left: 5.5vw;
     border-radius: 100%;
-    background-color: brown;
+    background-color: crimson;
 }
 
 #cirle_two
@@ -775,7 +774,148 @@ body
     margin-left: 1.5vw;
     margin-right: 2.5vw;
     border-radius: 100%;
-    background-color: brown; 
+    background-color: crimson; 
 }
 
+#a_b_buttons_line
+{
+    float: left;
+    width: 15.5vw;
+    height: 3.4vh;
+    margin-bottom: 2vh;
+}
 
+#cirle_two_text
+{
+    float: left;
+    box-sizing: border-box;
+    padding-left: 2.7vw;
+    padding-right: 4.3vw;
+    padding-top: 0vh;
+    padding-bottom: 0.3vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    width: 7vw;
+    height: 3.4vh;
+    color: #204a87;
+    font-size: 1.3vw;
+}
+
+#cirle_one_text
+{
+    float: left;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    width: 15.5vw;
+    padding-left: 6.6vw;
+    padding-right: 8.8vw;
+    padding-top: 0vh;
+    padding-bottom: 0.3vh;
+    height: 3.4vh;
+    color: #204a87;
+    font-size: 1.3vw;
+}
+
+#box_start_select
+{
+    float: left;
+    width: 28vw;
+    height: 5vh;
+}
+
+#buttons_start_select
+{
+    width: 28vw;
+    height: 2.5vh;
+}
+
+#sign_start_select
+{
+    width: 28vw;
+    height: 2.5vh;
+}
+
+#select_button
+{
+    float: left;
+    width: 5vw;
+    box-sizing: border-box;
+    height: 2.5vh;
+    margin-left: 8vw;
+    border-radius: 1vw;
+    background-color: #40423e;
+}
+
+#start_button
+{
+    float: left;
+    width: 5vw;
+    height: 2.5vh;
+    margin-left: 2vw;
+    margin-right: 8vw;
+    border-radius: 1vw;
+    background-color: #40423e;
+}
+
+#select_text
+{
+    float: left;
+    width: 5vw;
+    height: 2.5vh;
+    margin-left: 2vw;
+    margin-left: 8vw;
+    font-weight: 700;
+    font-size: 1vw;
+    text-align: center;
+    color: #204a87;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#start_text
+{
+    float: left;
+    width: 5vw;
+    height: 2.5vh;
+    margin-left: 2vw;
+    margin-right: 8vw;
+    font-weight: 700;
+    font-size: 1vw;
+    text-align: center;
+    color: #204a87;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#speaker_box
+{
+    float: left;
+    width: 28vw;
+    height: 11vh;
+    border-radius: 0vw 0vw 2vw 2vw;
+}
+
+#box_for_boxes
+{
+    float: left;
+    width: 10vw;
+    height: 11vh;
+    margin-left: 18vw;
+    border-radius: 0vw 0vw 2vw 0vw;
+}
+
+.speakers_block
+{
+    float: left;
+    width: 0.5vw;
+    margin-right: 1vw;
+    height: 8vh;
+    margin-top: 1.5vh;
+    margin-bottom: 1.5vh;
+    border-radius: 1vw;
+    background-color: #555753;
+}
+
+.speakers_block:first-child
+{
+    margin-left: 1vw;
+}
