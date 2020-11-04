@@ -694,6 +694,25 @@ body
     background-color: #25292b;
 }
 
+#part_one_left_button a
+{
+    text-decoration: none;
+    display: block;
+    color: #25292b;
+    width: 3vw;
+    height: 4vh;
+}
+
+#part_one_left_button a:hover
+{
+    display: block;
+    width: 3vw;
+    height: 4vh;
+    color: #35393c;
+    border-radius: 0.3vw 0vw 0vw 0.3vw;
+    background-color: #35393c;
+}
+
 #level_box
 {
     float: left;
@@ -715,6 +734,27 @@ body
     background-color: #25292b;
 }
 
+/* Testowanie linkowania przycisków*/
+
+#part_two_up_button a
+{
+    text-decoration: none;
+    display: block;
+    color: #25292b;
+    width: 2vw;
+    height: 6vh;
+}
+
+#part_two_up_button a:hover
+{
+    display: block;
+    width: 2vw;
+    height: 6vh;
+    color: #35393c;
+    border-radius: 0.3vw 0.3vw 0vw 0vw;
+    background-color: #35393c;
+}
+
 #part_two_middle_button_square
 {
     float: left;
@@ -734,6 +774,25 @@ body
    background-color: #25292b;
 }
 
+#part_three_down_button a
+{
+    text-decoration: none;
+    display: block;
+    color: #25292b;
+    width: 2vw;
+    height: 6vh;
+}
+
+#part_three_down_button a:hover
+{
+    display: block;
+    width: 2vw;
+    height: 6vh;
+    color: #35393c;
+    border-radius: 0vw 0vw 0.3vw 0.3vw;
+    background-color: #35393c;
+}
+
 #part_three_middle_button
 {
     float: left;
@@ -745,6 +804,25 @@ body
     box-shadow: .2vw .2vw #555753;
     border-radius: 0vw 0.3vw 0.3vw 0vw;
     background-color: #25292b; 
+}
+
+#part_three_middle_button a
+{
+    text-decoration: none;
+    display: block;
+    color: #25292b;
+    width: 3vw;
+    height: 4vh;
+}
+
+#part_three_middle_button a:hover
+{
+    display: block;
+    width: 3vw;
+    height: 4vh;
+    color: #35393c;
+    border-radius: 0vw 0.3vw 0.3vw 0vw;
+    background-color: #35393c;
 }
 
 #a_b_buttons
@@ -763,7 +841,28 @@ body
     margin-top: 4vh;
     margin-left: 5.5vw;
     border-radius: 100%;
-    background-color: crimson;
+    background-color: #dc143c;
+}
+
+#cirle_one a
+{
+    text-decoration: none;
+    display: block;
+    color: #dc143c;
+    text-align: center;
+    border-radius: 100%;
+    width: 3vw;
+    height: 6vh;
+}
+
+#cirle_one a:hover
+{
+    display: block;
+    width: 3vw;
+    height: 6vh;
+    color: #ed254d;
+    border-radius: 100%;
+    background-color: #ed254d;
 }
 
 #cirle_two
@@ -775,6 +874,27 @@ body
     margin-right: 2.5vw;
     border-radius: 100%;
     background-color: crimson; 
+}
+
+#cirle_two a
+{
+    text-decoration: none;
+    display: block;
+    color: #dc143c;
+    text-align: center;
+    border-radius: 100%;
+    width: 3vw;
+    height: 6vh;
+}
+
+#cirle_two a:hover
+{
+    display: block;
+    width: 3vw;
+    height: 6vh;
+    color: #ed254d;
+    border-radius: 100%;
+    background-color: #ed254d;
 }
 
 #a_b_buttons_line
@@ -847,6 +967,27 @@ body
     background-color: #40423e;
 }
 
+#select_button a
+{
+    text-decoration: none;
+    display: block;
+    color: #40423e;
+    text-align: center;
+    border-radius: 1vw;
+    width: 5vw;
+    height: 2.5vh;
+}
+
+#select_button a:hover
+{
+    display: block;
+    width: 5vw;
+    height: 2.5vh;
+    color: #51534f;
+    border-radius: 1vw;
+    background-color: #51534f;
+}
+
 #start_button
 {
     float: left;
@@ -856,6 +997,27 @@ body
     margin-right: 8vw;
     border-radius: 1vw;
     background-color: #40423e;
+}
+
+#start_button a
+{
+    text-decoration: none;
+    display: block;
+    color: #40423e;
+    text-align: center;
+    border-radius: 1vw;
+    width: 5vw;
+    height: 2.5vh;
+}
+
+#start_button a:hover
+{
+    display: block;
+    width: 5vw;
+    height: 2.5vh;
+    color: #51534f;
+    border-radius: 1vw;
+    background-color: #51534f;
 }
 
 #select_text
