@@ -1,0 +1,1359 @@
+body
+{
+    background-color: rgb(199, 197, 197);
+    width: 100vw;
+    height: 100vh;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+@font-face
+
+{
+
+font-family: Early GameBoy;
+
+src:url(early_gameboy_font/Early\ GameBoy.ttf);
+
+}
+
+
+/* Wszystko co znajduje sie na pasku bocznym */
+
+#sidebar
+{
+    float: left;
+    width: 12vw;
+    height: 100vh;
+    background-color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+#logo
+{
+    color: white;
+    width: 12vw;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    font-size: 1.8vw;
+    font-weight: 700;
+    text-align: center;
+    text-align: left;
+    letter-spacing: 0.3vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#avatar_box
+{
+    width: 12vw;
+    height: 10vh;
+}
+
+#avatar_box_img
+{
+    width: 5vw;
+    height: 10vh;
+    float: left;
+}
+
+
+/* Do poprawy "avatar_box_img_frame nachodzi na "projekty" */
+
+#avatar_box_img_frame
+{
+    width: 5vw;
+    height: 10vh;  
+}
+
+#avatar_box_img_frame_inside
+{
+    width: 4vw;
+    height: 8vh;
+    margin-left: 0.5vw;
+    margin-top: 0.5vh;
+    border-radius: 100%;
+    background-color: rgb(255, 217, 0);
+}
+
+#avatar_box_name
+{
+    float: left;
+    color: white;
+    font-size: 1vw;
+    padding-right: 0.4vw;
+    padding-left: 0.4vw;
+    padding-top: 3.7vh;
+    padding-bottom: 3.6vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#menu_list
+{
+    width: 12vw;
+}
+
+.menu_list_categorie
+{
+    width: 12vw;
+    color: white;
+    font-size: 1vw;
+    text-align: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}   
+
+.menu_list_categorie a
+{
+    display: block;
+    text-decoration: none;
+    width: 12vw;
+    color: white;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
+
+.menu_list_categorie:hover
+{
+    background-color: #f8920c;
+}
+
+
+/* Subpage - o autorach */
+
+#up_main_box
+{
+    width: 88vw;
+    height: 13vh;
+    float: left;
+}
+
+#up_main_box_text
+{
+    width: 88vw;
+}
+
+#up_main_box_text h1
+{
+    font-size: 3vw;
+    letter-spacing: 0.3vw;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    border-bottom: .2vw solid #000000;
+}
+
+#medium_main_box
+{
+    width: 88vw;
+    height: 68vh;
+    float: left;
+}
+
+#medium_main_box_left
+{
+    box-sizing: border-box;
+    float: left;
+    width: 44vw;
+    height: 68vh;
+    padding: 2vw 2vh;
+}
+
+#medium_main_box_left p
+{
+    font-size: 1.2vw;
+}
+
+#medium_main_box_right
+{
+    float: left;
+    width: 44vw;
+    height: 68vh;
+}
+
+#right_inside_box_first
+{
+    width: 44vw;
+    height: 10vh;
+}
+
+#text
+{
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    text-align: center;
+    font-size: 2vw;
+    padding-top: 2.5vh;
+    padding-bottom: 2vh;
+}
+
+#right_inside_box_second
+{
+    width: 44vw;
+    height: 58vh;
+}
+
+#right_box_inside_video
+{
+    box-sizing: border-box;
+    width: 44vw;
+    height: 58vh;
+    padding: 2vh 2vw;
+}
+
+#down_main_box
+{
+    width: 88vw;
+    height: 19vh;
+    float: left;
+}
+
+#down_main_box_icon
+{
+    width: 86vw;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    height: 17vh;
+    box-sizing: border-box;
+    border-top: 0.2vw solid #000000;
+    border-bottom: 0.2vw solid #000000;
+}
+
+.subpage_oautorach_icons
+{
+    float: left;
+    width: 10vw;
+    height: 14.6vh;
+    margin-right: 6vw;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    border-radius: 15%;
+    box-shadow: 0.2vw 0.3vh 0.6vw black; 
+}
+
+.subpage_oautorach_icons a
+{
+    display: block;
+    border-radius: 15%;
+}
+
+.subpage_oautorach_icons:first-child
+{
+    margin-left: 6vw;
+    background-color: #3B5998;
+}
+
+.subpage_oautorach_icons:first-child a:hover
+{
+    border-radius: 15%;
+    background-color: #4C6999;
+}
+
+.subpage_oautorach_icons:nth-child(2)
+{
+    background-color: #00ACEE;
+}
+
+.subpage_oautorach_icons:nth-child(2) a:hover
+{
+    border-radius: 15%;
+    background-color: #00BDFF;
+}
+
+.subpage_oautorach_icons:nth-child(3)
+{
+    background-color: #EA4335;
+}
+
+.subpage_oautorach_icons:nth-child(3) a:hover
+{
+    border-radius: 15%;
+    background-color: #FB5446;
+}
+
+.subpage_oautorach_icons:nth-child(4)
+{
+    background-color: #C4302B;
+}
+
+.subpage_oautorach_icons:nth-child(4) a:hover
+{
+    border-radius: 15%;
+    background-color: #D5413C;
+}
+
+.subpage_oautorach_icons:nth-child(5)
+{
+    background-color: #833AB4;
+}
+
+.subpage_oautorach_icons:nth-child(5) a:hover
+{
+    border-radius: 15%;
+    background-color: #944BC5;
+}
+
+
+/* Subpage - projekty */
+
+#testowo
+{
+    float: left;
+    width: 40vw;
+    height: 40vh;
+    background-color: #C4302B;
+    margin-left: 24vw;
+    margin-right: 24vw;
+    margin-top: 30vh;
+    margin-bottom: 30vh;
+}
+
+
+/* Subpage - timers */
+
+#page_not_found
+{
+    text-align: center;
+    font-size: 4vw;
+    padding-top: 4vh;
+    padding-bottom: 4vh;
+}
+
+#the_worlds_best_boss
+{
+    float: left;
+    width: 50vw;
+    height: 50vh;
+    margin-left: 19vw;
+    margin-right: 19vw;
+}
+
+
+/* Subpage -  strona logowania*/
+
+.login_page_background_color
+{
+    background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100vw;
+    height: 100vh;
+}
+
+#login_main_box
+{
+    float: left;
+    background-color: ivory;
+    width: 60vw;
+    height: 90vh;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    border-radius: 5%;
+    box-shadow: 1px 1px 6px black;
+}
+
+#login_main_box_left
+{
+    float: left;
+    width: 30vw;
+    height: 90vh;
+    border-radius: 5% 0 0 5%;
+    background-color: #ffd000;
+}
+
+#login_main_box_left_text
+{
+    font-size: 4vw;
+    float: left;
+    border-radius: 5% 0 0 5%;
+    padding-top: 34.1vh;
+    padding-bottom: 34vh;
+    text-align: center;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+
+#login_main_box_right
+{
+    float: left;
+    width: 30vw;
+    height: 90vh;
+    border-radius: 0 5% 5% 0;
+}
+
+#login_box_block_text
+{
+    float: left;
+    font-size: 2.5vw;
+    padding-top: 9vh;
+    padding-bottom: 9vh;
+    font-weight: 700;
+    width: 30vw;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#login_box_blocks
+{
+    float: left;
+    width: 30vw;
+    height: 66vh;
+}
+
+.login_boxes
+{
+    float: left;
+    width: 24vw;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    border-radius: 1.6vw;
+    height: 7vh;
+    margin-top: 2.5vh;
+    background-color: #cccfd3;
+}
+
+.login_boxes:nth-child(3)
+{
+    margin-top: 4vh;
+    background-color: #cc1845;
+    box-shadow: .2vw .2vw .6vw #000000;
+}
+
+#login_boxes_log_in_text
+{
+    box-sizing: border-box;
+    font-size: 2vw;
+    padding-top: 0.7vh;
+    font-weight: 700;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    height: 7vh;
+    border-radius: 1.6vw;
+}
+#login_boxes_log_in_text a
+{
+    display: block;
+    text-decoration: none;
+    color: #000000;
+}
+
+#login_boxes_log_in_text a:hover
+{
+    box-sizing: border-box;
+    background-color: #dd2956;
+    width: 24vw;
+    height: 6.2vh;
+    border-radius: 1.6vw;
+    
+}
+
+#login_boxes_username_text
+{
+    box-sizing: border-box;
+    font-size: 1.4vw;
+    padding-left: 2vw;
+    color: rgb(102, 100, 100);
+    padding-top: 1.6vh;
+    font-weight: 700;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+    height: 7vh;
+    border-radius: 1.6vw;
+}
+
+#login_boxes_password_text
+{
+    box-sizing: border-box;
+    font-size: 1.4vw;
+    padding-left: 2vw;
+    color: rgb(102, 100, 100);
+    padding-top: 1.6vh;
+    font-weight: 700;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+    height: 7vh;
+    border-radius: 1.6vw;
+}
+
+/* Subpage - gameboy*/
+
+.gameboy_page_background_color
+{
+    background-color: #ffc400;
+    width: 100vw;
+    height: 100vh;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+#gameboy_main_box
+{
+    float: left;
+    width: 28vw;
+    height: 84vh;
+    margin-right: 36vw;
+    margin-left: 36vw;
+    margin-top: 8vh;
+    margin-bottom: 8vh;
+    border-radius: 2vw 2vw 2vw 2vw;
+    background-color: #b0b4ac;
+    box-shadow: 1vw 1vw 0.3vw black;
+}  
+
+#gameboy_line_up
+{
+    box-sizing: border-box;
+    width: 28vw;
+    height: 6vh;
+    border-bottom: 0.5vw solid #555753;
+    border-radius: 2vw 2vw 0vw 0vw;
+}
+
+#gameboy_line_up_two
+{
+    width: 23vw;
+    height: 6vh;
+    box-sizing: border-box;
+    border-left: 0.5vw solid #555753;
+    border-right: 0.5vw solid #555753;
+    margin-right: 2.5vw;
+    margin-left: 2.5vw;
+}
+
+#screen_main_box
+{
+    width: 23vw;
+    height: 34vh;
+    margin-top: 3vh;
+    margin-left: 2.5vw;
+    margin-right: 2.5vw;
+    border-radius: 1vw 1vw 1vw 1vw;
+    background-color: #888a85;
+}
+
+#battery_diode
+{
+    float: left;
+    box-sizing: border-box;
+    width: 3.5vw;
+    height: 26vh;
+}
+
+#battery_diode_box
+{
+    float: left;
+    box-sizing: border-box;
+    width: 3.5vw;
+    height: 2vh;
+    margin-top: 9vh;
+}
+
+#battery_diode_box_icon
+{
+    float: left;
+    box-sizing: border-box;
+    width: .8vw;
+    height: 1.7vh;
+    margin-left: 1.2vw;
+    margin-right: 1.5vw;
+    border-radius: 100%;
+    background-color: #d00606;
+}
+
+#battery_text
+{
+    float: left;
+    box-sizing: border-box;
+    width: 3.5vw;
+    height: 2vh;
+    color: #d6d6d3;
+    font-size: 0.7vw;
+    text-align: center;
+    margin-top: 1vh;
+    padding-top: 0.1vh;
+    padding-bottom: 0.1vh;
+    margin-bottom: 11.3vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#up_screen
+{
+    width: 23vw;
+    height: 4vh;
+    border-radius: 1vw 1vw 0 0;
+}
+
+#up_box_one
+{
+    float: left;
+    box-sizing: border-box;
+    border-top: .5vh solid #5c3566;
+    border-bottom: .5vh solid #204a87;
+    width: 6vw;
+    margin-left: 1vw;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    height: 2vh;
+}
+
+#up_box_two
+{
+    float: left;
+    box-sizing: border-box;
+    width: 11.8vw;
+    height: 2vh;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    margin-left: 0.6vw;
+    margin-right: 0.6vw;
+    color: #d6d6d3;
+    font-size: 0.7vw;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#up_box_three
+{
+    float: left;
+    box-sizing: border-box;
+    width: 2vw;
+    height: 2vh;
+    margin-right: 1vw;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    border-top: .5vh solid #5c3566;
+    border-bottom: .5vh solid #204a87;
+}
+
+#green_screen_main_box
+{
+    float: left;
+    width: 16vw;
+    height: 26vh;
+    margin-bottom: 4vh;
+    margin-right: 3.5vw;
+    border-radius: .5vw .5vw .5vw .5vw;
+    background-color: #73d216;
+}
+
+#menu_elementu_labiryntu
+{
+    font-family: Early GameBoy;
+    font-size: 0.8vw;  
+    text-align: center;
+}
+
+#main_menu_gameboy_wyjscie
+{
+    float: left;
+    width: 14vw;
+    height: 23vh;
+    margin-bottom: 1vh;
+    margin-right: 1vw;
+    margin-left: 1vw;
+    margin-top: 2vh;
+    font-family: Early GameBoy;
+    font-size: 1vw;
+    text-align: center;
+}
+
+#main_menu_gameboy_wyjscie p:first-child
+{
+    font-size: 0.8vw;
+}
+
+#main_menu_gameboy_wyjscie p:nth-child(2)
+{
+    font-size: 0.6vw;
+}
+
+#main_menu_gameboy_wyjscie p:nth-child(3)
+{
+    font-size: 0.6vw;
+    padding-top: 4vh;
+}
+
+#main_menu_gameboy_zasady
+{
+    float: left;
+    width: 14vw;
+    height: 23vh;
+    margin-bottom: 1vh;
+    margin-right: 1vw;
+    margin-left: 1vw;
+    margin-top: 2vh;
+    font-family: Early GameBoy;
+    font-size: 1.5vw;
+    text-align: center;
+}
+
+#main_menu_gameboy_zasady p:first-child
+{
+    font-size: 0.8vw;
+}
+
+#main_menu_gameboy_zasady p:nth-child(2)
+{
+    font-size: 0.6vw;
+}
+
+#main_menu_gameboy
+{
+    float: left;
+    box-sizing: border-box;
+    width: 14vw;
+    height: 24vh;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    font-family: Early GameBoy;
+    font-size: 1.5vw;
+    text-align: center;
+    padding-top: 3vh;
+}
+
+#main_menu_gameboy p
+{
+    font-size: 0.8vw;
+    margin-top: 2vh;
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+
+#main_menu_gameboy_option
+{
+    float: left;
+    box-sizing: border-box;
+    width: 14vw;
+    height: 24vh;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    font-family: Early GameBoy;
+    font-size: 1.5vw;
+    text-align: center;
+    padding-top: 3vh;
+}
+
+#main_menu_gameboy_option p
+{
+    font-size: 0.8vw;
+    margin-top: 2vh;
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+
+#main_menu_gameboy_option p:first-child
+{
+    background-color: #666a63;
+}
+
+#main_menu_gameboy_option_zasady
+{
+    float: left;
+    box-sizing: border-box;
+    width: 14vw;
+    height: 24vh;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    font-family: Early GameBoy;
+    font-size: 1.5vw;
+    text-align: center;
+    padding-top: 3vh;
+}
+
+#main_menu_gameboy_option_zasady p
+{
+    font-size: 0.8vw;
+    margin-top: 2vh;
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+
+#main_menu_gameboy_option_zasady p:nth-child(2)
+{
+    background-color: #666a63;
+}
+
+#main_menu_gameboy_option_wyjscie
+{
+    float: left;
+    box-sizing: border-box;
+    width: 14vw;
+    height: 24vh;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    font-family: Early GameBoy;
+    font-size: 1.5vw;
+    text-align: center;
+    padding-top: 3vh;
+}
+
+#main_menu_gameboy_option_wyjscie p
+{
+    font-size: 0.8vw;
+    margin-top: 2vh;
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+
+#main_menu_gameboy_option_wyjscie p:nth-child(3)
+{
+    background-color: #666a63;
+}
+
+#billi_ellish
+{
+    float: left;
+    width: 14vw;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    margin-top: 1vh;
+    height: 15vh;
+}
+
+#win_text
+{
+    float: left;
+    box-sizing: border-box;
+    width: 14vw;
+    height: 7vh;
+    margin-bottom: 1vh;
+    margin-top: 1vh;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    padding: 1.2vh;
+    text-align: center;
+    font-family: Early GameBoy;
+    font-size: 0.8vw;
+}
+
+#gameboy_logo_nintendo
+{
+    width: 28vw;
+    height: 5vh;
+}
+
+#nintendo_logo_text
+{
+    color: #204a87;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 23vw;
+    padding-top: 0.1vh;
+    padding-bottom: 0.1vh;
+    box-sizing: border-box;
+    margin-left: 2.5vw;
+    margin-right: 2.5vw;
+}
+
+.gameboy
+{
+    font-weight: 700;
+    font-size: 1.7vw;
+}
+
+.gameboy_tm
+{
+    font-size: 0.8vw;
+}
+
+.nintendo_logo
+{
+    font-weight: 500;
+    font-size: 1.3vw;
+}
+
+/* Wersja testowa krzyżaka do gameboy-a i innych przycisków*/
+
+#main_buttons
+{
+    width: 28vw;
+    height: 20vh;
+}
+
+#square_for_buttons
+{
+    float: left;
+    width: 10vw;
+    height: 20vh;
+    margin-left: 2.5vw;
+}
+
+#part_one_left_button
+{
+    float: left;
+    width: 3vw;
+    height: 4vh;
+    margin-left: 1vw;
+    margin-top: 8vh;
+    margin-bottom: 8vh;
+    box-shadow: .2vw .2vw #555753;
+    border-radius: 0.3vw 0vw 0vw 0.3vw;
+    background-color: #25292b;
+}
+
+#part_one_left_button a
+{
+    text-decoration: none;
+    display: block;
+    color: #25292b;
+    width: 3vw;
+    height: 4vh;
+}
+
+#part_one_left_button a:hover
+{
+    display: block;
+    width: 3vw;
+    height: 4vh;
+    color: #35393c;
+    border-radius: 0.3vw 0vw 0vw 0.3vw;
+    background-color: #35393c;
+}
+
+#level_box
+{
+    float: left;
+    width: 2vw;
+    height: 16vh;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    border-radius: 0.3vw 0.3vw 0.3vw 0.3vw;
+    background-color: #25292b;
+}
+
+#part_two_up_button
+{
+    float: left;
+    width: 2vw;
+    height: 6vh;
+    border-radius: 0.3vw 0.3vw 0vw 0vw;
+    box-shadow: .2vw .2vw #555753;
+    background-color: #25292b;
+}
+
+/* Testowanie linkowania przycisków*/
+
+#part_two_up_button a
+{
+    text-decoration: none;
+    display: block;
+    color: #25292b;
+    width: 2vw;
+    height: 6vh;
+}
+
+#part_two_up_button a:hover
+{
+    display: block;
+    width: 2vw;
+    height: 6vh;
+    color: #35393c;
+    border-radius: 0.3vw 0.3vw 0vw 0vw;
+    background-color: #35393c;
+}
+
+#part_two_middle_button_square
+{
+    float: left;
+    width: 2vw;
+    height: 4vh;
+    box-shadow: .2vw .2vw #555753;
+    background-color: #25292b;
+}
+
+#part_three_down_button
+{
+   float: left;
+   width: 2vw;
+   height: 6vh; 
+   box-shadow: .2vw .2vw #555753;
+   border-radius: 0vw 0vw 0.3vw 0.3vw;
+   background-color: #25292b;
+}
+
+#part_three_down_button a
+{
+    text-decoration: none;
+    display: block;
+    color: #25292b;
+    width: 2vw;
+    height: 6vh;
+}
+
+#part_three_down_button a:hover
+{
+    display: block;
+    width: 2vw;
+    height: 6vh;
+    color: #35393c;
+    border-radius: 0vw 0vw 0.3vw 0.3vw;
+    background-color: #35393c;
+}
+
+#part_three_middle_button
+{
+    float: left;
+    width: 3vw;
+    height: 4vh;
+    margin-right: 1vw;
+    margin-top: 8vh;
+    margin-bottom: 8vh;
+    box-shadow: .2vw .2vw #555753;
+    border-radius: 0vw 0.3vw 0.3vw 0vw;
+    background-color: #25292b; 
+}
+
+#part_three_middle_button a
+{
+    text-decoration: none;
+    display: block;
+    color: #25292b;
+    width: 3vw;
+    height: 4vh;
+}
+
+#part_three_middle_button a:hover
+{
+    display: block;
+    width: 3vw;
+    height: 4vh;
+    color: #35393c;
+    border-radius: 0vw 0.3vw 0.3vw 0vw;
+    background-color: #35393c;
+}
+
+#a_b_buttons
+{
+    float: left;
+    width: 15.5vw;
+    height: 10vh;
+    margin-top: 5vh;
+}
+
+#cirle_one
+{
+    float: left;
+    width: 3vw;
+    height: 6vh;
+    margin-top: 4vh;
+    margin-left: 5.5vw;
+    border-radius: 100%;
+    background-color: #dc143c;
+}
+
+#cirle_one a
+{
+    text-decoration: none;
+    display: block;
+    color: #dc143c;
+    text-align: center;
+    border-radius: 100%;
+    width: 3vw;
+    height: 6vh;
+}
+
+#cirle_one a:hover
+{
+    display: block;
+    width: 3vw;
+    height: 6vh;
+    color: #ed254d;
+    border-radius: 100%;
+    background-color: #ed254d;
+}
+
+#cirle_two
+{
+    float: left;
+    width: 3vw;
+    height: 6vh;
+    margin-left: 1.5vw;
+    margin-right: 2.5vw;
+    border-radius: 100%;
+    background-color: crimson; 
+}
+
+#cirle_two a
+{
+    text-decoration: none;
+    display: block;
+    color: #dc143c;
+    text-align: center;
+    border-radius: 100%;
+    width: 3vw;
+    height: 6vh;
+}
+
+#cirle_two a:hover
+{
+    display: block;
+    width: 3vw;
+    height: 6vh;
+    color: #ed254d;
+    border-radius: 100%;
+    background-color: #ed254d;
+}
+
+#a_b_buttons_line
+{
+    float: left;
+    width: 15.5vw;
+    height: 3.4vh;
+    margin-bottom: 2vh;
+}
+
+#cirle_two_text
+{
+    float: left;
+    box-sizing: border-box;
+    padding-left: 2.7vw;
+    padding-right: 4.3vw;
+    padding-top: 0vh;
+    padding-bottom: 0.3vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    width: 7vw;
+    height: 3.4vh;
+    color: #204a87;
+    font-size: 1.3vw;
+}
+
+#cirle_one_text
+{
+    float: left;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    width: 15.5vw;
+    padding-left: 6.6vw;
+    padding-right: 8.8vw;
+    padding-top: 0vh;
+    padding-bottom: 0.3vh;
+    height: 3.4vh;
+    color: #204a87;
+    font-size: 1.3vw;
+}
+
+#box_start_select
+{
+    float: left;
+    width: 28vw;
+    height: 5vh;
+}
+
+#buttons_start_select
+{
+    width: 28vw;
+    height: 2.5vh;
+}
+
+#sign_start_select
+{
+    width: 28vw;
+    height: 2.5vh;
+}
+
+#select_button
+{
+    float: left;
+    width: 5vw;
+    box-sizing: border-box;
+    height: 2.5vh;
+    margin-left: 8vw;
+    border-radius: 1vw;
+    background-color: #40423e;
+}
+
+#select_button a
+{
+    text-decoration: none;
+    display: block;
+    color: #40423e;
+    text-align: center;
+    border-radius: 1vw;
+    width: 5vw;
+    height: 2.5vh;
+}
+
+#select_button a:hover
+{
+    display: block;
+    width: 5vw;
+    height: 2.5vh;
+    color: #51534f;
+    border-radius: 1vw;
+    background-color: #51534f;
+}
+
+#start_button
+{
+    float: left;
+    width: 5vw;
+    height: 2.5vh;
+    margin-left: 2vw;
+    margin-right: 8vw;
+    border-radius: 1vw;
+    background-color: #40423e;
+}
+
+#start_button a
+{
+    text-decoration: none;
+    display: block;
+    color: #40423e;
+    text-align: center;
+    border-radius: 1vw;
+    width: 5vw;
+    height: 2.5vh;
+}
+
+#start_button a:hover
+{
+    display: block;
+    width: 5vw;
+    height: 2.5vh;
+    color: #51534f;
+    border-radius: 1vw;
+    background-color: #51534f;
+}
+
+#select_text
+{
+    float: left;
+    width: 5vw;
+    height: 2.5vh;
+    margin-left: 2vw;
+    margin-left: 8vw;
+    font-weight: 700;
+    font-size: 1vw;
+    text-align: center;
+    color: #204a87;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#start_text
+{
+    float: left;
+    width: 5vw;
+    height: 2.5vh;
+    margin-left: 2vw;
+    margin-right: 8vw;
+    font-weight: 700;
+    font-size: 1vw;
+    text-align: center;
+    color: #204a87;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#speaker_box
+{
+    float: left;
+    width: 28vw;
+    height: 11vh;
+    border-radius: 0vw 0vw 2vw 2vw;
+}
+
+#box_for_boxes
+{
+    float: left;
+    width: 10vw;
+    height: 11vh;
+    margin-left: 18vw;
+    border-radius: 0vw 0vw 2vw 0vw;
+}
+
+.speakers_block
+{
+    float: left;
+    width: 0.5vw;
+    margin-right: 1vw;
+    height: 8vh;
+    margin-top: 1.5vh;
+    margin-bottom: 1.5vh;
+    border-radius: 1vw;
+    background-color: #555753;
+}
+
+.speakers_block:first-child
+{
+    margin-left: 1vw;
+}
+
+#welcome
+{
+    float: left;
+    width: 80vw;
+    height: 90vh;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+#welcome_text
+{
+    width: 80vw;
+    height: 20vh;
+    font-family: Early GameBoy;
+    font-size: 5vw;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 3vh;
+}
+
+#video_michael
+{
+    width: 50vw;
+    height: 50vh;
+    margin-left: 15vw;
+    margin-right: 15vw;
+}
+
+#button_welcome
+{
+    width: 30vw;
+    height: 10vh;
+    margin-left: 25vw;
+    margin-right: 25vw;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    border-radius: 0.2vw;
+    text-align: center;
+    box-sizing: border-box;
+    font-size: 2vw;
+    font-family: Early GameBoy;
+}
+
+#button_welcome p
+{
+    padding-top: 2vh;
+    color: black;
+}
+
+#button_welcome a
+{
+    display: block;
+    width: 30vw;
+    height: 10vh;
+    text-decoration: none;
+    background-color: #cc1845;
+}
+
+#button_welcome a:hover
+{
+    background-color: #dd2956;
+}
+
+
+
