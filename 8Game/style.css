@@ -640,10 +640,31 @@ src:url(early_gameboy_font/Early\ GameBoy.ttf);
     background-color: #73d216;
 }
 
-#menu_elementu_labiryntu
+#img_elementu_labiryntu
 {
+    width: 14vw;
+    height: 15vh;
+    margin-top: 1vh;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    margin-bottom: 1vw;
+    border-radius: .5vw .5vw .5vw .5vw;
+}
+
+#img_elementu_labiryntu img
+{
+    border-radius: .5vw .5vw .5vw .5vw;
+}
+
+#text_elementu_labiryntu
+{
+    width: 14vw;
+    height: 7vh;
+    margin-bottom: 1vh;
+    margin-left: 1vw;
+    margin-right: 1vw;
     font-family: Early GameBoy;
-    font-size: 0.8vw;  
+    font-size: 0.6vw;
     text-align: center;
 }
 
