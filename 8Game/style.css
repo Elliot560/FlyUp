@@ -859,6 +859,11 @@ src:url(early_gameboy_font/Early\ GameBoy.ttf);
     font-size: 0.8vw;
 }
 
+#win_text p
+{
+    font-size: 0.5vw;
+}
+
 #gameboy_logo_nintendo
 {
     width: 28vw;
@@ -1352,13 +1357,13 @@ src:url(early_gameboy_font/Early\ GameBoy.ttf);
     border-radius: 0.2vw;
     text-align: center;
     box-sizing: border-box;
-    font-size: 2vw;
+    font-size: 1.8vw;
     font-family: Early GameBoy;
 }
 
 #button_welcome p
 {
-    padding-top: 2vh;
+    padding-top: 2.2vh;
     color: black;
 }
 
@@ -1376,5 +1381,140 @@ src:url(early_gameboy_font/Early\ GameBoy.ttf);
     background-color: #dd2956;
 }
 
+#video_michael_instruction
+{
+    width: 50vw;
+    height: 50vh;
+    margin-left: 15vw;
+    margin-right: 15vw; 
+}
 
+#box_one_instruction_one
+{
+    width: 50vw;
+    height: 18vh;
+}
 
+#box_one_instruction_two
+{
+    width: 50vw;
+    height: 16vh;
+}
+
+#box_one_instruction_three
+{
+    width: 50vw;
+    height: 16vh;
+}
+
+#img_dalej_one
+{
+    float: left;
+    width: 10vw;
+    height: 16vh;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
+}
+
+#img_dalej_one_text
+{
+    float: left;
+    width: 38.5vw;
+    height: 16vh;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    margin-right: 0.5vw;
+    font-family: Early GameBoy;
+}
+
+#img_dalej_one_text p
+{
+    padding-top: 1vh;
+    padding-left: 1vw;
+    font-size: 0.8vw;
+    text-align: left;
+}
+
+#img_dalej_two
+{
+    float: left;
+    width: 10vw;
+    height: 14vh;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
+}
+
+#img_dalej_two_text p
+{
+    padding-top: 1.5vh;
+    padding-left: 1vw;
+    font-size: 0.8vw;
+    text-align: left;
+}
+
+#img_dalej_two_text
+{
+    float: left;
+    width: 38.5vw;
+    height: 14vh;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    margin-right: 0.5vw;
+    font-family: Early GameBoy;
+}
+
+#img_dalej_three
+{
+    float: left;
+    width: 10vw;
+    height: 5vh;
+    margin-top: 4.5vh;
+    margin-bottom: 4.5vh;
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
+}
+
+#img_dalej_three_text
+{
+    float: left;
+    width: 38.5vw;
+    height: 14vh;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    margin-right: 0.5vw;
+    font-family: Early GameBoy;
+}
+
+#img_dalej_three_text p
+{
+    padding-top: 2vh;
+    padding-left: 1vw;
+    font-size: 0.8vw;
+    text-align: left;
+}
+
+#tryb_gry_img
+{
+    width: 20vw;
+    height: 35vh;
+    margin-left: 15vw;
+    margin-right: 15vw;
+}
+
+#tryb_gry_img_text
+{
+    width: 40vw;
+    height: 12.5vh;
+    margin-top: 2.5vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    font-family: Early GameBoy;
+    font-size: 1.4vw;
+    text-align: center;
+    padding-top: 4vh;
+    box-sizing: border-box;
+}
